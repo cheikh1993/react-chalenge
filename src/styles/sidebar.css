@@ -1,0 +1,7 @@
+.sidebar{
+    flex: 1;
+    background: '#fff';
+    overflow-y: scroll;
+    height: 100vh;
+    min-width: 250px;
+}

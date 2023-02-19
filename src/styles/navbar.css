@@ -1,0 +1,44 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 20px;
+
+}
+ul{
+display: flex;
+align-items: center;
+list-style-type: none;
+justify-content: space-between;
+
+}
+.menu{
+    flex: 2.3;
+    display: flex;
+    justify-content: flex-end;
+}
+.log{
+    flex: 1;
+    color:  hsl(240, 100%, 5%);
+    font-weight: 900;
+    font-size: 4rem;
+    font-family: serif;
+}
+li{
+    display: flex;
+align-items: center;
+}
+a{
+    color:hsl(240, 100%, 5%);
+    margin: 10px;
+    text-decoration: none;
+    transition: .25s ease-in-out;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+a:hover{
+    color: hsl(35, 77%, 62%);
+}
